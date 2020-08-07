@@ -6,7 +6,7 @@ const router = express.Router()
 
 
 // approve create api
-router.post('/',(req,res) => {
+router.post('/',(req, res) => {
     const newApprove = {
         id: req.body.id,
         round: req.body.round,
@@ -26,7 +26,7 @@ router.post('/',(req,res) => {
 })
 
 // approve retrieve api
-router.get('/',(req,res) =>{
+router.get('/',(req, res) =>{
     res.json({
         message: 'approve retrieve API'
     })
@@ -34,7 +34,7 @@ router.get('/',(req,res) =>{
 
 
 // approve update api
-router.patch('/',(req,res) => {
+router.patch('/',(req, res) => {
     res.json ({
         message: 'approve update API'
     })
@@ -42,9 +42,9 @@ router.patch('/',(req,res) => {
 
 
 // approve delete api
-router.delete('/',(req,res) => {
+router.delete('/',(req, res) => {
     res.json({
-        message: 'approve delte API'
+        message: 'approve delete API'
     })
 })
 
