@@ -13,11 +13,11 @@ router.post('/',(req,res) => {
         phone: req.body.phone,
         email: req.body.email,
         description: req.body.description,
-        createAt: req.body.creatAt
+        createAt: req.body.createAt
     }
 
     res.json({
-        message: 'error create API'
+        message: 'error create API',
         errorinfo: newError
     })
 })

@@ -1,11 +1,11 @@
 const express = require('express')
-const router = express.Router
+const router = express.Router()
 
 //Project CRUD API
 
 
 // project create API
-roueter.post('/', (req, res) => {
+router.post('/', (req, res) => {
     const newProject = {
         id: req.body.id, 
         name: req.body.name,
@@ -16,8 +16,8 @@ roueter.post('/', (req, res) => {
     }
 
     res.json({
-        message: 'project create API'
-        projectinfo = newProject
+        message: 'project create API',
+        projectinfo: newProject
     })
 })
 
@@ -27,7 +27,7 @@ router.get('/', (req, res) => {
     res.json({
         message: 'project retrieve API'
     })
-}
+})
 
 
 // project update API

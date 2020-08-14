@@ -1,15 +1,15 @@
 const express = require('express')
-const router = express.Router
+const router = express.Router()
 
 
 // MILESTONE CRUD API
 
 
 // milestone create API
-router.post('/',(req, res) => {
+router.post('/', (req, res) => {
     const newMilestone = {
         id: req.body.id,
-        round: req.body.round, 
+        round: req.body.round,
         amount: req.body.amount,
         createAt: req.body.createAt,
         isSafeTransfer: req.body.isSafeTransfer,
@@ -20,7 +20,7 @@ router.post('/',(req, res) => {
     }
 
     res.json({
-        message: newMilestone
+        message: "milestone creat API",
         milestoneinfo: newMilestone
     })
 })
@@ -46,7 +46,7 @@ router.delete('/',(req, res) => {
     res.json({
         message: 'milestone delete API'
     })
-}
+})
 
 
 module.exports = router

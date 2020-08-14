@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="40c2c9df-d9cf-4dd1-982c-fab7e338a75b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/approve.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/approve.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/error.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/invite.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/invite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/milestone.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/milestone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/participant.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/participant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/policy.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/policy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/review.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/review.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/session.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/session.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/subscribe.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/subscribe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/user_method.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/user_method.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1flXIISoYowhkBrBVnEAM37iBFu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40c2c9df-d9cf-4dd1-982c-fab7e338a75b" name="Default Changelist" comment="" />
+      <created>1596793572946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596793572946</updated>
+      <workItem from="1596793574620" duration="51000" />
+      <workItem from="1596793631496" duration="46000" />
+      <workItem from="1596793684019" duration="2221000" />
+      <workItem from="1597390475566" duration="69000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="210" key="SettingsEditor" timestamp="1596793720933">
+      <screen x="42" y="23" width="1750" height="1097" />
+    </state>
+    <state x="418" y="210" key="SettingsEditor/42.23.1750.1097@42.23.1750.1097" timestamp="1596793720933" />
+  </component>
+</project>

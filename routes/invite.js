@@ -46,4 +46,4 @@ router.delete('/',(req, res) => {
 })
 
 
-modules.experts = router
+module.exports = router

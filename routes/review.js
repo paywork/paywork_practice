@@ -1,11 +1,11 @@
 const express = require('express')
-const router = express.Router
+const router = express.Router()
 
 //Review CRUD
 
 
 // review create API
-roueter.post('/', (req, res) => {
+router.post('/', (req, res) => {
     const newReview = {
         id: req.body.id, 
         userid: req.body.userid,
@@ -14,8 +14,8 @@ roueter.post('/', (req, res) => {
     }
 
     res.json({
-        message: 'review create API'
-        reviewinfo = newReview
+        message: 'review create API',
+        reviewinfo: newReview
     })
 })
 
@@ -25,7 +25,7 @@ router.get('/', (req, res) => {
     res.json({
         message: 'review retrieve API'
     })
-}
+})
 
 
 // review update API

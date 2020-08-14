@@ -6,6 +6,9 @@ const router = express.Router()
 
 
 // approve create api
+
+// http://localhost:1111/approve 이 기본 설정
+
 router.post('/',(req, res) => {
     const newApprove = {
         id: req.body.id,
@@ -20,7 +23,7 @@ router.post('/',(req, res) => {
     }
 
     res.json({
-        message: 'approve create API'
+        message: 'approve create API',
         approveinfo: newApprove
     })
 })

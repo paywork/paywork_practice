@@ -1,11 +1,11 @@
 const express = require('express')
-const router = express.Router
+const router = express.Router()
 
 //Subscribe CRUD
 
 
 // subscribe create API
-roueter.post('/', (req, res) => {
+router.post('/', (req, res) => {
     const newSubscribe = {
         id: req.body.id, 
         username: req.body.username,
@@ -17,8 +17,8 @@ roueter.post('/', (req, res) => {
     }
 
     res.json({
-        message: 'subscribe create API'
-        subscribeinfo = newSubscribe
+        message: 'subscribe create API',
+        subscribeinfo: newSubscribe
     })
 })
 
@@ -28,7 +28,7 @@ router.get('/', (req, res) => {
     res.json({
         message: 'subscribe retrieve API'
     })
-}
+})
 
 
 // subscribe update API

@@ -1,5 +1,5 @@
 const express = require('express')
-const router = express.Router
+const router = express.Router()
 
 
 // Participant CRUD
@@ -16,7 +16,7 @@ router.post('/',(req, res) => {
     }
 
     res.json({
-        message: 'particiant create API'
+        message: 'particiant create API',
         participantinfo: newParticipant
     })
 })
@@ -44,4 +44,4 @@ router.delete('/', (req, res) => {
 })
 
 
-modules.exports = router
+module.exports = router

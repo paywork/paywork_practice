@@ -1,10 +1,10 @@
 const express = require('express')
-const router = express.Router
+const router = express.Router()
 
 // User CRUD
 
 // user create API
-roueter.post('/', (req, res) => {
+router.post('/', (req, res) => {
     const newUser = {
         id: req.body.id, 
         username: req.body.username,
@@ -16,8 +16,8 @@ roueter.post('/', (req, res) => {
     }
 
     res.json({
-        message: 'user create API'
-        userinfo = newUser
+        message: 'user create API',
+        userinfo: newUser
     })
 })
 
@@ -27,7 +27,7 @@ router.get('/', (req, res) => {
     res.json({
         message: 'user retrieve API'
     })
-}
+})
 
 
 // user update API

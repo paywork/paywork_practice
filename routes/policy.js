@@ -1,11 +1,11 @@
 const express = require('express')
-const router = express.Router
+const router = express.Router()
 
 // Policy CRUD API
 
 
 // Policy create API
-roueter.post('/', (req, res) => {
+router.post('/', (req, res) => {
     const newPolicy = {
         name: req.body.name, 
         title: req.body.title,
@@ -15,8 +15,8 @@ roueter.post('/', (req, res) => {
     }
 
     res.json({
-        message: 'policy create API'
-        policyinfo = newPolicy
+        message: 'policy create API',
+        policyinfo: newPolicy
     })
 })
 
@@ -26,7 +26,7 @@ router.get('/', (req, res) => {
     res.json({
         message: 'policy retrieve API'
     })
-}
+})
 
 
 // Policy update API
